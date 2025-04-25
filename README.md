@@ -30,9 +30,6 @@ Comprehensive EDA was performed to understand trends and distributions across ma
    ![image](https://github.com/user-attachments/assets/ccca52be-f84b-4776-88d5-36fd95401a27)
    ![image](https://github.com/user-attachments/assets/e645083a-cbf8-4312-8f99-e126373b1a81)
 
-
-
-
 - **Seasonal Orange Cap Holders**: Tracked top run-scorer each season.
   ![image](https://github.com/user-attachments/assets/25589708-406c-4ac0-8fd6-8a33bd8c5ac6)
 
@@ -60,10 +57,8 @@ Benchmarked four classifiers:
    ![image](https://github.com/user-attachments/assets/f292bfcb-b723-4125-b752-025f5cc18171)
 
 
-
-
-ROC AUC scores confirmed XGBoost as the top performer.
-<img width="353" alt="image" src="https://github.com/user-attachments/assets/417b7913-6371-41a8-898f-e6a73e68160d" />
+## ROC AUC scores confirmed XGBoost as the top performer.
+<img width="353" alt="image" src="https://github.com/user-attachments/assets/4bd60fad-e11f-4b34-9230-8c26338c4800" />
 
 ---
 ## Usage Guide
