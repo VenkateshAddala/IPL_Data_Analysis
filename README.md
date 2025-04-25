@@ -136,13 +136,13 @@ Future enhancements could include:
    matches.csv
    deliveries.csv
    india_states_geo.json
-  If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration.
+  If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration
 4. **Clone the repository**:
    ```bash
    git clone https://github.com/username/repo-name.git
    cd repo-name
 5. **Install dependencies**:
-    ```bash
+   ```bash
    pip install <libraries>
 6. **Download and prepare source data**:
    Unzip datasets.zip into data/, ensuring the following files are present:
@@ -152,7 +152,7 @@ Future enhancements could include:
    india_states_geo.json
   If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration.
 7.**Launch the Notebooks**:
-```bash
+   ```bash
    jupyter notebook notebooks/IPL_EDA_Final.ipynb
    jupyter notebook notebooks/ML_DMM_II.ipynb
 8. **View results and plots**
