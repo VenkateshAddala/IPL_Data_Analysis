@@ -76,10 +76,10 @@ Benchmarked four classifiers:
       deliveries.csv
       india_states_geo.json
 If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration.
-5. **Launch the EDA notebooks**
+4. **Launch the EDA notebooks**:
    ```bash
-   jupyter notebook notebooks/IPL_EDA_Final.ipynb
-6. **Train and evaluate models**:
+     jupyter notebook notebooks/IPL_EDA_Final.ipynb
+5. **Train and evaluate models**:
    ```bash
    jupyter notebook notebooks/ML_DMM_II.ipynb
-7. **View results and plots**
+6. **View results and plots**
