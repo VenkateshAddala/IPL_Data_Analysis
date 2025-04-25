@@ -65,5 +65,25 @@ Benchmarked four classifiers:
 ROC AUC scores confirmed XGBoost as the top performer.
 <img width="353" alt="image" src="https://github.com/user-attachments/assets/417b7913-6371-41a8-898f-e6a73e68160d" />
 
-
-
+---
+## Usage Guide
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/username/repo-name.git
+   cd repo-name
+2. **Install dependencies**:
+    ```bash
+   pip install <libraries>
+3. **Download and prepare source data**:
+     Unzip datasets.zip into data/, ensuring the following files are present:
+      matches.csv
+      deliveries.csv
+      india_states_geo.json
+If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration.
+4. **Launch the EDA notebooks**
+   ```bash
+   jupyter notebook notebooks/IPL_EDA_Final.ipynb
+5. **Train and evaluate models**:
+   ```bash
+   jupyter notebook notebooks/ML_DMM_II.ipynb
+7. **View results and plots**
