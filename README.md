@@ -1,93 +1,63 @@
-# IPL_Data_Analysis
-# IPL Data Analysis and Predicting Match Outcomes
+# Cricket Data Analysis and Match Outcome Prediction
 
-## Executive Summary
-Cricket is more than just a sport in India—it's a cultural phenomenon with the IPL at its core. This analysis (2008–2024) uncovers team and player trends and uses machine learning to predict match winners before the game starts.
+## Introduction
+This project analyzes historical IPL match data (2008–2024) to uncover insights at team, player, and venue levels, and leverages machine learning models to predict match outcomes before play begins.
 
-## Table of Contents
-- [Executive Summary](#executive-summary)
-- [Dataset & Preprocessing](#dataset--preprocessing)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
-  - [IPL Titles by Team](#ipl-titles-by-team)
-  - [Head-to-Head Wins](#head-to-head-wins)
-  - [Top 10 Batsmen by Total Runs](#top-10-batsmen-by-total-runs)
-  - [Century-Scorers (2008–2024)](#century-scorers-2008–2024)
-  - [Top Run Scorer Each Season](#top-run-scorer-each-season)
-  - [Top Wicket-Taker Each Season](#top-wicket-taker-each-season)
-  - [Venue Statistics Treemap](#venue-statistics-treemap)
-  - [Geographic Venue Map](#geographic-venue-map)
-- [Feature Engineering](#feature-engineering)
-- [Modeling & Evaluation](#modeling--evaluation)
-  - [Model Performance Comparison](#model-performance-comparison)
-  - [ROC Curves](#roc-curves)
-- [Future Work](#future-work)
-- [License](#license)
-- [Contact](#contact)
+## Exploratory Data Analysis (EDA)
+Comprehensive EDA was performed to understand trends and distributions across matches, players, and venues, utilizing visualizations such as bar charts, heat maps, treemaps, and geographic maps.
 
----
+## Team-wise Analysis
+- **Titles by Franchise**: Ranked franchises by total IPL wins from 2008–2024
+  ![image](https://github.com/user-attachments/assets/a757549d-f981-4d48-a09e-3c943240d1ce)
+- **Head-to-Head Records**: Visualized win counts between every pair of teams.
+  <img width="485" alt="image" src="https://github.com/user-attachments/assets/05361135-ab6d-440b-9c29-08ea5ba8aae7" />
 
-## Dataset & Preprocessing
-- **Source:** Kaggle's IPL Complete Dataset (Matches.csv & Deliveries.csv)
-- **Filters:** Removed super‑overs and incomplete games; merged ball‑by‑ball data with match metadata; cleaned missing/invalid entries.
-- **Engineered Features:** Toss decisions, batting/bowling metrics, historical win percentages (overall/venue/head‑to‑head), star player flags, home advantage, depth metrics (top performers averages).
+- **Win Percentage**: Compared overall win rates to identify the most consistent performers.
+  <img width="401" alt="image" src="https://github.com/user-attachments/assets/3b2a4139-477b-4a55-b5b8-1632024d296c" />
 
-## Exploratory Data Analysis
 
-### IPL Titles by Team
-![IPL Titles by Team](images/plots/ipl_titles_by_team.png)
-*Titles won by each franchise (2008–2024)*
+## Player-wise Analysis
+- **Top Batsmen by Runs**: Highlighted the leading run-scorers and strike-rate leaders. 
+ ![image](https://github.com/user-attachments/assets/9f3100a0-b97b-4a10-ad61-db6c05a3c86b)
+ ![image](https://github.com/user-attachments/assets/05385a12-7596-46b9-9093-02ee0a754953)
 
-### Head-to-Head Wins
-![Head-to-Head Wins](images/plots/head_to_head_wins.png)
-*Match win counts between each pair of teams*
 
-### Top 10 Batsmen by Total Runs
-![Top 10 Batsmen by Total Runs](images/plots/top_10_batsmen_by_runs.png)
-*Overall run totals for leading batsmen*
+- **Century and Fifty Counts**: Counted 50+ and 100+ scores for top contributors.
+   ![image](https://github.com/user-attachments/assets/503ba84b-6cc0-41d2-970c-d4485d11a391)
+   ![image](https://github.com/user-attachments/assets/ccf45431-4fcf-434f-aba9-528c37c9e27c)
 
-### Century-Scorers (2008–2024)
-![Century-Scorers (2008–2024)](images/plots/top_century_scorers.png)
-*Number of centuries scored by top players*
 
-### Top Run Scorer Each Season
-![Top Run Scorer Each Season](images/plots/top_run_scorer_each_season.png)
-*Orange Cap holders with total runs per season*
+- **Seasonal Orange Cap Holders**: Tracked top run-scorer each season.
+   ![image](https://github.com/user-attachments/assets/25589708-406c-4ac0-8fd6-8a33bd8c5ac6)
 
-### Top Wicket-Taker Each Season
-![Top Wicket-Taker Each Season](images/plots/top_wicket_taker_each_season.png)
-*Purple Cap holders with wickets per season*
+- **Seasonal Purple Cap Holders**: Tracked top wicket-taker each season.
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/c44cf476-dc1a-411d-bee3-489ff659fb12" />
 
-### Venue Statistics Treemap
-![Venue Statistics Treemap](images/plots/venue_statistics_treemap.png)
-*Tiled view of matches played and average scores by venue*
+## Venue-wise Analysis
+- **Matches by Venue**: Mapped total matches hosted per stadium.
+  <img width="468" alt="image" src="https://github.com/user-attachments/assets/02c72f0a-77ee-4de3-b7d0-b1cd4d81534c" />
 
-### Geographic Venue Map
-![Geographic Venue Map](images/plots/venues_geographic_map.png)
-*Map of IPL venues sized by total matches hosted*
+   
 
-## Feature Engineering
-A comprehensive set of predictors capturing pre‑game toss strategy, team performance metrics, historical trends, and contextual factors like home advantage and star players.
+- **Venue Performance Treemap**: Showed matches count, average runs, and high/low scores per venue.
+![image](https://github.com/user-attachments/assets/f53d2bf0-6958-438a-9472-042a0cf83e52)
 
-## Modeling & Evaluation
 
-### Model Performance Comparison
-![Model Performance Comparison](images/plots/model_performance_comparison.png)
-*Test-set accuracies: XGBoost (0.745), Gradient Boosting (0.694), Random Forest (0.597), Logistic Regression (0.449)*
+## ML Model Evaluation and Results
+Benchmarked four classifiers:
+1. **Logistic Regression** – Test accuracy: 44.9%
+2. **Random Forest** – Test accuracy: 59.7%
+3. **Gradient Boosting** – Test accuracy: 69.4%
+4. **XGBoost** – Test accuracy: 74.5%
 
-### ROC Curves
-![ROC Curves](images/plots/roc_curves.png)
-*Micro-average ROC curves with AUCs: LogisticRegression (0.87), RandomForest (0.95), GradientBoosting (0.97), XGBoost (0.98)*
+    ![image](https://github.com/user-attachments/assets/aecdeada-8f1f-4736-b6b4-71ff0c44e31f)
+   ![image](https://github.com/user-attachments/assets/f292bfcb-b723-4125-b752-025f5cc18171)
 
-## Future Work
-- Integrate real-time variables: weather conditions, player availability
-- Develop an interactive dashboard for live predictions
-- Experiment with ensemble and deep learning classifiers
 
-## License
-Released under the MIT License.
 
-## Contact
-- **Author:** Venkateswara Rao Addala
-- **Email:** venkatesh.addala@example.com
-- **GitHub:** [VenkateshAddala](https://github.com/VenkateshAddala)
+
+ROC AUC scores confirmed XGBoost as the top performer.
+<img width="353" alt="image" src="https://github.com/user-attachments/assets/417b7913-6371-41a8-898f-e6a73e68160d" />
+
+
 
