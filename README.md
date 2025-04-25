@@ -147,9 +147,9 @@ For questions or collaboration opportunities, please contact:
    matches.csv
    deliveries.csv
    india_states_geo.json
-   If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration.
+  If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration.
 4.**Launch the Notebooks**:
    ```bash
    jupyter notebook notebooks/IPL_EDA_Final.ipynb
    jupyter notebook notebooks/ML_DMM_II.ipynb
-Once the files are executed, view results and plots.
+  Once the files are executed, view results and plots.
