@@ -24,7 +24,7 @@ Comprehensive EDA was performed to understand trends and distributions across ma
 
 - **Century and Fifty Counts**: Counted 50+ and 100+ scores for top contributors.
    ![image](https://github.com/user-attachments/assets/503ba84b-6cc0-41d2-970c-d4485d11a391)
-   ![image](https://github.com/user-attachments/assets/ccf45431-4fcf-434f-aba9-528c37c9e27c)
+
 
 
 - **Seasonal Orange Cap Holders**: Tracked top run-scorer each season.
