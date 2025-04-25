@@ -120,8 +120,19 @@ Future enhancements could include:
 - Including player availability updates and team news
 - Developing a user-friendly dashboard for live predictions
 
+## References
 
----
+IPL Complete Dataset (2008–2024) – Patrick B. Kumar, Kaggle
+Scikit-Learn: Machine Learning in Python
+Pandas: Python Data Analysis Library – Wes McKinney
+Matplotlib: Visualization with Python – John D. Hunter
+
+## Contact Information
+For questions or collaboration opportunities, please contact:
+- **Name:** Venkateswara Rao Addala  
+- **LinkedIn:** [venkatesh48](https://www.linkedin.com/in/venkatesh48/)  
+- **Email:** venkatesh.addala98@gmail.com
+
 ## Usage Guide
 1. **Clone the repository**:
    ```bash
@@ -137,37 +148,8 @@ Future enhancements could include:
    deliveries.csv
    india_states_geo.json
   If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration.
-4. **Clone the repository**:
-   ```bash
-   git clone https://github.com/username/repo-name.git
-   cd repo-name
-5. **Install dependencies**:
-   ```bash
-   pip install <libraries>
-6. **Download and prepare source data**:
-   Unzip datasets.zip into data/, ensuring the following files are present:
-   ```bash
-   matches.csv
-   deliveries.csv
-   india_states_geo.json
-  If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration.
-7.**Launch the Notebooks**:
+4.**Launch the Notebooks**:
    ```bash
    jupyter notebook notebooks/IPL_EDA_Final.ipynb
    jupyter notebook notebooks/ML_DMM_II.ipynb
-8. **View results and plots**
-
-## References
-
-IPL Complete Dataset (2008–2024) – Patrick B. Kumar, Kaggle
-Scikit-Learn: Machine Learning in Python
-Pandas: Python Data Analysis Library – Wes McKinney
-Matplotlib: Visualization with Python – John D. Hunter
-
-Contact Information
-For questions or collaboration opportunities, please contact:
-
-Venkateswara Rao Addala
-LinkedIn Profile <https://www.linkedin.com/in/venkatesh48/>
-Email <venkatesh.addala98@gmail.com>
-
+Once the files are executed, view results and plots.
