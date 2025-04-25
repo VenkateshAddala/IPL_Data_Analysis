@@ -34,10 +34,10 @@ Comprehensive EDA was performed to understand trends and distributions across ma
 
 
 - **Seasonal Orange Cap Holders**: Tracked top run-scorer each season.
-![image](https://github.com/user-attachments/assets/25589708-406c-4ac0-8fd6-8a33bd8c5ac6)
+  ![image](https://github.com/user-attachments/assets/25589708-406c-4ac0-8fd6-8a33bd8c5ac6)
 
 - **Seasonal Purple Cap Holders**: Tracked top wicket-taker each season.
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/c44cf476-dc1a-411d-bee3-489ff659fb12" />
+  <img width="468" alt="image" src="https://github.com/user-attachments/assets/c44cf476-dc1a-411d-bee3-489ff659fb12" />
 
 ## Venue-wise Analysis
 - **Matches by Venue**: Mapped total matches hosted per stadium.
@@ -46,7 +46,7 @@ Comprehensive EDA was performed to understand trends and distributions across ma
    
 
 - **Venue Performance Treemap**: Showed matches count, average runs, and high/low scores per venue.
-![image](https://github.com/user-attachments/assets/f53d2bf0-6958-438a-9472-042a0cf83e52)
+  ![image](https://github.com/user-attachments/assets/f53d2bf0-6958-438a-9472-042a0cf83e52)
 
 
 ## ML Model Evaluation and Results
@@ -56,7 +56,7 @@ Benchmarked four classifiers:
 3. **Gradient Boosting** – Test accuracy: 69.4%
 4. **XGBoost** – Test accuracy: 74.5%
 
-    ![image](https://github.com/user-attachments/assets/aecdeada-8f1f-4736-b6b4-71ff0c44e31f)
+   ![image](https://github.com/user-attachments/assets/aecdeada-8f1f-4736-b6b4-71ff0c44e31f)
    ![image](https://github.com/user-attachments/assets/f292bfcb-b723-4125-b752-025f5cc18171)
 
 
