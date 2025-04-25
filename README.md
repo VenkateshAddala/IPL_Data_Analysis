@@ -71,14 +71,15 @@ Benchmarked four classifiers:
    pip install <libraries>
 3. **Download and prepare source data**:
      Unzip datasets.zip into data/, ensuring the following files are present:
+    ```bash
       matches.csv
       deliveries.csv
       india_states_geo.json
 If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration.
-4. **Launch the EDA notebooks**
+5. **Launch the EDA notebooks**
    ```bash
    jupyter notebook notebooks/IPL_EDA_Final.ipynb
-5. **Train and evaluate models**:
+6. **Train and evaluate models**:
    ```bash
    jupyter notebook notebooks/ML_DMM_II.ipynb
 7. **View results and plots**
