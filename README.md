@@ -136,7 +136,7 @@ Future enhancements could include:
    matches.csv
    deliveries.csv
    india_states_geo.json
-  If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration
+  If you place them elsewhere, update the file paths in notebooks/IPL_EDA_Final.ipynb and ML_DMM_II.ipynb configuration\n
 4. **Clone the repository**:
    ```bash
    git clone https://github.com/username/repo-name.git
