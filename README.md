@@ -24,11 +24,17 @@ Comprehensive EDA was performed to understand trends and distributions across ma
 
 - **Century and Fifty Counts**: Counted 50+ and 100+ scores for top contributors.
    ![image](https://github.com/user-attachments/assets/503ba84b-6cc0-41d2-970c-d4485d11a391)
+ ![image](https://github.com/user-attachments/assets/ddc583ae-b1b0-4bac-b5a2-3b431c48c05d)
+
+- **Top Bowlers by Wickets and Economy**: Highlighted the leading Wicket-Takers and Economy leaders.
+   ![image](https://github.com/user-attachments/assets/ccca52be-f84b-4776-88d5-36fd95401a27)
+   ![image](https://github.com/user-attachments/assets/e645083a-cbf8-4312-8f99-e126373b1a81)
+
 
 
 
 - **Seasonal Orange Cap Holders**: Tracked top run-scorer each season.
-   ![image](https://github.com/user-attachments/assets/25589708-406c-4ac0-8fd6-8a33bd8c5ac6)
+![image](https://github.com/user-attachments/assets/25589708-406c-4ac0-8fd6-8a33bd8c5ac6)
 
 - **Seasonal Purple Cap Holders**: Tracked top wicket-taker each season.
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/c44cf476-dc1a-411d-bee3-489ff659fb12" />
